@@ -1,0 +1,17 @@
+`01_setup_project_files.png` — Thunar file manager — all required files deployed (server.py, dme.py, client.py, configs, README)
+
+`02_config_B_real_ips.png` — `cat config_B.ini` showing real cloud-lab IPs
+
+`03_jyoti_client_startup.png` — Client B startup: DME endpoint up → wait_for_peers → peer A reachable → ready
+
+`04_TC1_satya_single_post.png` — Satya's `post crash` — full Ricart–Agrawala cycle, no contention
+
+`05_TC2_satya_recv_request_reply.png` — Satya finishes his post, then receives B's REQUEST while RELEASED → REPLY immediately
+
+`06_TC2_jyoti_post_full_cycle.png` — Jyoti's `post Hello Satya` — full Ricart–Agrawala cycle from B's side
+
+`07_server_log.png` — Server log alone — view() and post() RPCs interleaved
+
+`08_server_and_chatfile.png` — Server log + `cat chat.txt` side-by-side
+
+`09_final_view_13_messages.png` — Jyoti's `post Hellp` cycle + view showing all 13 messages
